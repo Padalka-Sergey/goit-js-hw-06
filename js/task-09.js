@@ -8,7 +8,9 @@ const bodyRef = document.querySelector("body");
 
 const handleClick = () => {
   bcgColorRef.textContent = getRandomHexColor();
-  bodyRef.setAttribute("style", `background-color:${getRandomHexColor()}`);
+  // bodyRef.setAttribute("style", `background-color:${getRandomHexColor()}`);
+
+  bodyRef.setAttribute("style", `background-color:${bcgColorRef.textContent}`);
   // console.log(bcgColorRef.textContent);
 };
 

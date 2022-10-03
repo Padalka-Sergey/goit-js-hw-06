@@ -26,4 +26,4 @@ incrRef.addEventListener("click", () => {
   return valueRef.textContent;
 });
 
-changeCounterValue(9);
+changeCounterValue(8);
